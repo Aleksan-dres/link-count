@@ -24,9 +24,9 @@ def is_shorten_link(vk_token,url):
 
     response.raise_for_status() 
 
-    data = response.json()
+    json_response = response.json()
    
-    return "response" in data
+    return "response" in json_response
 
 
 def shorten_link(vk_token, url):
