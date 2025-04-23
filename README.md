@@ -34,7 +34,9 @@ pip install -r requirements.txt
  ## Запуск кода 
  Запуск выполняется через командную строку. Где указывается URL ссылка (например `https://github.com/`). Приложение выведет сокращенную ссылку. Для наглядности выполните следующую команду в терминале: 
  
- ```python link-count.py -url https://github.com``` 
+ ```
+ python link-count.py -url https://github.com
+``` 
  
  ![link-count](https://github.com/user-attachments/assets/d8e8ca3a-b2df-4b35-abc3-ed5526e452ac)
  
@@ -42,7 +44,9 @@ pip install -r requirements.txt
  При указании короткой ссылки(Пример `https://vk.cc/10wh74`), приложение выведет сколько раз перешли по данной ссылке. Для наглядности выполните следующую команду в терминале: 
 
 
- ```python link-count.py -url https://vk.cc/10wh74``` 
+ ``` 
+ python link-count.py -url https://vk.cc/10wh74
+``` 
 
  
  ![link-count_1](https://github.com/user-attachments/assets/0f13f1c3-9cc8-421d-be21-b889bdbe2766)
